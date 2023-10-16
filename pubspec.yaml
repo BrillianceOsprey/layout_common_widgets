@@ -1,0 +1,45 @@
+name: layout_testing
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+  # https://unsplash.com/photos/EN2PucB2yhA
+  - assets/ronnie-mayo-361348-unsplash.jpg
+  # https://unsplash.com/photos/pmH_Y4Qetrk
+  - assets/stefan-stefancik-105587-unsplash.jpg
+  # https://unsplash.com/photos/5ditmO9_ae0
+  - assets/simon-fitall-530083-unsplash.jpg
+  # https://unsplash.com/photos/3MNzGlQM7qs
+  - assets/anton-repponen-99530-unsplash.jpg
+  # https://unsplash.com/photos/CPjkWSD0RM0
+  - assets/kevin-cochran-524957-unsplash.jpg
+  # https://unsplash.com/photos/T0XLKgpyT_c
+  - assets/samsommer-72299-unsplash.jpg
+  # https://unsplash.com/photos/twukN12EN7c
+  - assets/simon-matzinger-320332-unsplash.jpg
+  # https://unsplash.com/photos/8BH_M-53CyA
+  - assets/meng-ji-102492-unsplash.jpg
+  # https://unsplash.com/photos/tvOvBq90bM0
+  - assets/brady-bellini-212790-unsplash.jpg

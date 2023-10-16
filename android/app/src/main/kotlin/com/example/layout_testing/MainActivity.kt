@@ -1,0 +1,6 @@
+package com.example.layout_testing
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
